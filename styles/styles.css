@@ -1,0 +1,115 @@
+
+
+header{
+    display: grid;
+    background-image: url(../images/Logo\ 3.jpeg);
+    background-size: 400px;
+    background-position-x: center;
+    background-color: black;
+}
+.header-titulo{
+    display: grid
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 3;
+    text-align: center;
+    color: black
+    
+}
+.header__links{
+background-position: center;
+list-style-type: none;  
+padding: 0%;
+height: auto;
+text-align: center;
+background-color: rgb(65, 71, 69);
+color: rgb(219, 209, 209);
+padding: 10px;
+
+}
+.header__links li{
+    display: inline-block;
+    list-style: none;
+    padding: 0%;
+    height: auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 05px;
+    padding: 10px
+       
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+section{
+display: flex.,
+font-style: italic;
+}
+.contenedor{
+    border: solid 1px black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    overflow: auto;
+}
+.form-input{
+    font-size: inherit;
+}
+
+.form{
+    margin: auto;
+    background-color: rgb(230, 230, 222);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid grid-auto-columns: 100%;
+}    
+.product h3{
+    font-size: 1.7em;
+    margin-top: 5px;
+  margin-bottom: 5px;
+    
+}
+.card{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    
+}
+.card img
+{
+    width: 150px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+.footer{
+    max-width: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 3
+    
+    
+}
+
+@media screen and (max-width: 700px ;) { .header-titulo
+
+}
